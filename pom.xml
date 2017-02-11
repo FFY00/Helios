@@ -88,13 +88,6 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>dex2jar-repo</id>
-            <url>http://repository-dex2jar.forge.cloudbees.com/release/</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
             <groupId>org.ow2.asm</groupId>
