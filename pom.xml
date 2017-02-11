@@ -87,7 +87,19 @@
             </plugin>
         </plugins>
     </build>
-
+         
+    <repositories>
+        <!-- Spigot -->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>dex2jar</id>
+            <url>http://repository-dex2jar.forge.cloudbees.com/snapshot/</url>
+        </repository>
+     </repositories>
+         
     <dependencies>
         <dependency>
             <groupId>org.ow2.asm</groupId>
@@ -140,16 +152,16 @@
 
 
         <dependency>
-            <groupId>com.strobel</groupId>
-            <artifactId>procyon</artifactId>
-            <version>44d7e2</version>
+            <groupId>org.bitbucket.mstrobel</groupId>
+            <artifactId>procyon-core</artifactId>
+            <version>0.5.23</version>
             <!--Apache 2.0-->
             <!--helios-->
         </dependency>
         <dependency>
-            <groupId>org.benf</groupId>
-            <artifactId>cfr</artifactId>
-            <version>0.118</version>
+             <groupId>org.benf.cfr</groupId>
+             <artifactId>cfr-decompiler</artifactId>
+             <version>0.78</version>
             <!--MIT-->
             <!--helios-->
         </dependency>
@@ -161,24 +173,24 @@
             <!--helios-->
         </dependency>
         <dependency>
-            <groupId>org.jf</groupId>
+            <groupId>org.smali</groupId>
             <artifactId>smali</artifactId>
-            <version>2709afc5</version>
+            <version>2.0.3</version>
             <!--BSD + Apache 2.0-->
             <!--helios-->
             <!--2.1.0-->
         </dependency>
         <dependency>
-            <groupId>org.jf</groupId>
+            <groupId>org.smali</groupId>
             <artifactId>baksmali</artifactId>
-            <version>2709afc5</version>
+            <version>2.00.3</version>
             <!--BSD + Apache 2.0-->
             <!--helios-->
             <!--2.1.0-->
         </dependency>
         <dependency>
-            <groupId>brut</groupId>
-            <artifactId>apktool</artifactId>
+            <groupId>brut.apktool.smali</groupId>
+            <artifactId>maven-smali-plugin</artifactId>
             <version>a4270d</version>
             <!--Apache 2.0-->
             <!--helios-->
@@ -186,7 +198,7 @@
         <dependency>
             <groupId>com.googlecode.d2j</groupId>
             <artifactId>dex-tools</artifactId>
-            <version>2.0</version>
+            <version>2.0-SNAPSHOT/</version>
             <!--Apache 2.0-->
             <!--dex2jar-repo-->
         </dependency>
@@ -207,6 +219,37 @@
             <artifactId>javaparser-core</artifactId>
             <version>2.4.0</version>
         </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.swt.org.eclipse.swt.win32.win32.x86.4.3.swt/org.eclipse.swt.win32.win32.x86 -->
+<dependency>
+    <groupId>org.eclipse.swt.org.eclipse.swt.win32.win32.x86.4.3.swt</groupId>
+    <artifactId>org.eclipse.swt.win32.win32.x86</artifactId>
+    <version>4.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.swt.org.eclipse.swt.win32.win32.x86_64.4.3.swt/org.eclipse.swt.win32.win32.x86_64 -->
+<dependency>
+    <groupId>org.eclipse.swt.org.eclipse.swt.win32.win32.x86_64.4.3.swt</groupId>
+    <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+    <version>4.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.swt.org.eclipse.swt.gtk.linux.x86.4.3.swt/org.eclipse.swt.gtk.linux.x86 -->
+<dependency>
+    <groupId>org.eclipse.swt.org.eclipse.swt.gtk.linux.x86.4.3.swt</groupId>
+    <artifactId>org.eclipse.swt.gtk.linux.x86</artifactId>
+    <version>4.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.swt.org.eclipse.swt.gtk.linux.x86_64.4.3.swt/org.eclipse.swt.gtk.linux.x86_64 -->
+<dependency>
+    <groupId>org.eclipse.swt.org.eclipse.swt.gtk.linux.x86_64.4.3.swt</groupId>
+    <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+    <version>4.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.swt.org.eclipse.swt.cocoa.macosx.x86_64.4.3.swt/org.eclipse.swt.cocoa.macosx.x86_64 -->
+<dependency>
+    <groupId>org.eclipse.swt.org.eclipse.swt.cocoa.macosx.x86_64.4.3.swt</groupId>
+    <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
+    <version>4.3</version>
+</dependency>
 
 
         <dependency>
