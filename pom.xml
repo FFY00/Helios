@@ -156,6 +156,36 @@
     <artifactId>apktool-lib</artifactId>
     <version>1.4.4-3</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.smali/baksmali -->
+<dependency>
+    <groupId>org.smali</groupId>
+    <artifactId>baksmali</artifactId>
+    <version>2.0.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.smali/dexlib2 -->
+<dependency>
+    <groupId>org.smali</groupId>
+    <artifactId>dexlib2</artifactId>
+    <version>2.0.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.bitbucket.mstrobel/procyon-compilertools -->
+<dependency>
+    <groupId>org.bitbucket.mstrobel</groupId>
+    <artifactId>procyon-compilertools</artifactId>
+    <version>0.4.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.github.javaparser/javaparser-core -->
+<dependency>
+    <groupId>com.github.javaparser</groupId>
+    <artifactId>javaparser-core</artifactId>
+    <version>3.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.0</version>
+</dependency>
 
              
     <dependency>
