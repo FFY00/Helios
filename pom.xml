@@ -149,6 +149,13 @@
             <version>1.5.5</version>
             <!-- Classpath exception -->
         </dependency>
+             
+<!-- https://mvnrepository.com/artifact/com.github.tony19/apktool-lib -->
+<dependency>
+    <groupId>com.github.tony19</groupId>
+    <artifactId>apktool-lib</artifactId>
+    <version>1.4.4-3</version>
+</dependency>
 
              
     <dependency>
