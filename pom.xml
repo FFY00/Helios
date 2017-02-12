@@ -155,18 +155,6 @@
             <!-- Classpath exception -->
         </dependency>
              
-<!-- https://mvnrepository.com/artifact/org.smali/baksmali -->
-<dependency>
-    <groupId>org.smali</groupId>
-    <artifactId>baksmali</artifactId>
-    <version>2.0.3</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.smali/dexlib2 -->
-<dependency>
-    <groupId>org.smali</groupId>
-    <artifactId>dexlib2</artifactId>
-    <version>2.0.3</version>
-</dependency>
 <!-- https://mvnrepository.com/artifact/org.bitbucket.mstrobel/procyon-compilertools -->
 <dependency>
     <groupId>org.bitbucket.mstrobel</groupId>
@@ -226,6 +214,20 @@
     <version>2.2</version>
          <scope>system</scope>
          <systemPath>${project.basedir}/lib/smali-2.2b4-1a83d5a2.jar</systemPath>
+</dependency>
+<dependency>
+    <groupId>org.jf</groupId>
+    <artifactId>baksmali</artifactId>
+    <version>2.2</version>
+         <scope>system</scope>
+         <systemPath>${project.basedir}/lib/baksmali-2.2b4-1a83d5a2.jar</systemPath>
+</dependency>
+<dependency>
+    <groupId>org.jf</groupId>
+    <artifactId>dexlib2</artifactId>
+    <version>2.2</version>
+         <scope>system</scope>
+         <systemPath>${project.basedir}/lib/dexlib2-2.2b4-1a83d5a2.jar</systemPath>
 </dependency>
              
     <dependency>
