@@ -8,13 +8,6 @@
     <artifactId>helios</artifactId>
     <version>0.0.7</version>
     <!--Refer to http://semver.org-->
-
-<repositories>
-    <repository>
-        <id>Dex2jar Repo</id>
-        <url>http://repository-dex2jar.forge.cloudbees.com/release/</url>
-    </repository>
-</repositories>
          
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -104,6 +97,11 @@
     <repository>
         <id>maven-eclipse-repo</id>
         <url>http://maven-eclipse.github.io/maven</url>
+    </repository>
+             
+                 <repository>
+        <id>Dex2jar Repo</id>
+        <url>http://repository-dex2jar.forge.cloudbees.com/release/</url>
     </repository>
      </repositories>
          
