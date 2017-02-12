@@ -224,6 +224,8 @@
     <groupId>org.jf</groupId>
     <artifactId>smali</artifactId>
     <version>2.2</version>
+         <scope>system</scope>
+         <systemPath>${project.basedir}/lib/smali-2.2b4-1a83d5a2.jar</systemPath>
 </dependency>
              
     <dependency>
