@@ -155,12 +155,6 @@
             <!-- Classpath exception -->
         </dependency>
              
-<!-- https://mvnrepository.com/artifact/com.github.tony19/apktool-lib -->
-<dependency>
-    <groupId>com.github.tony19</groupId>
-    <artifactId>apktool-lib</artifactId>
-    <version>1.4.4-3</version>
-</dependency>
 <!-- https://mvnrepository.com/artifact/org.smali/baksmali -->
 <dependency>
     <groupId>org.smali</groupId>
@@ -212,7 +206,13 @@
          <scope>system</scope>
          <systemPath>${project.basedir}/lib/fernflower.jar</systemPath>
 </dependency>
-
+      <dependency>
+         <groupId>brutt</groupId>
+         <artifactId>androlib</artifactId>
+         <version>2.2.2</version>
+         <scope>system</scope>
+         <systemPath>${project.basedir}/lib/apktool_2.2.2.jar</systemPath>
+</dependency>
              
     <dependency>
         <groupId>org.eclipse.swt</groupId>
