@@ -56,7 +56,7 @@ public class SmaliAssembler extends Assembler {
             try {
                 SmaliOptions smaliOptions = new SmaliOptions();
                 smaliOptions.outputDexFile = tempDex.getAbsolutePath();
-                org.jf.smali.main.run(smaliOptions, tempSmaliFolder.getAbsolutePath());
+                org.jf.smali.Main.run(smaliOptions, tempSmaliFolder.getAbsolutePath());
             } catch (Exception e) {
                 ExceptionHandler.handle(e);
             }
