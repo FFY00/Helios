@@ -27,8 +27,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>[ERROR] Failed to execute goal on project helios: Could not resolve dependencies for project com.heliosdecompiler:helios:jar:0.0.7: The following artifacts could not be resolved: com.strobel:procyon:jar:44d7e2, org.benf:cfr:jar:0.118, org.jetbrains:java-decompiler:jar:78d1492, org.jf:smali:jar:2709afc5, org.jf:baksmali:jar:2709afc5, brut:apktool:jar:a4270d: Failure to find com.strobel:procyon:jar:44d7e2 in http://maven-eclipse.github.io/maven/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-eclipse-repo has elapsed or updates are forced -> [Help 1]
+                    <source>1.6</source>
+                    <target>1.6</target>
                 </configuration>
             </plugin>
             <plugin>
