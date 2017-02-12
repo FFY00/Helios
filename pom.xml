@@ -9,6 +9,13 @@
     <version>0.0.7</version>
     <!--Refer to http://semver.org-->
 
+<repositories>
+    <repository>
+        <id>Dex2jar Repo</id>
+        <url>http://repository-dex2jar.forge.cloudbees.com/release/</url>
+    </repository>
+</repositories>
+         
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <swt.version>4.6</swt.version>
@@ -178,13 +185,34 @@
 <dependency>
     <groupId>com.github.javaparser</groupId>
     <artifactId>javaparser-core</artifactId>
-    <version>3.0.0</version>
+    <version>2.0.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
     <version>3.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.google.android.tools/dx -->
+<dependency>
+    <groupId>com.google.android.tools</groupId>
+    <artifactId>dx</artifactId>
+    <version>1.7</version>
+</dependency>
+             
+      <dependency>
+         <groupId>org.benf</groupId>
+         <artifactId>cfr</artifactId>
+         <version>0_119</version>
+         <scope>system</scope>
+         <systemPath>${project.basedir}/lib/cfr_0_119.jar</systemPath>
+      </dependency>
+      <dependency>
+         <groupId>org.jetbrains.java</groupId>
+         <artifactId>decompiler</artifactId>
+         <version>1.0.0</version>
+         <scope>system</scope>
+         <systemPath>${project.basedir}/lib/fernflower.jar</systemPath>
 </dependency>
 
              
